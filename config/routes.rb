@@ -1,4 +1,7 @@
 Twilio::Application.routes.draw do
+  resources :users
+
+
   get "send_text/send_text_message"
 
   get "send_text_controller/send_text_message"

@@ -1,4 +1,6 @@
 Twilio::Application.routes.draw do
+  get "send_text/send_text_message"
+
   get "send_text_controller/send_text_message"
 
   # The priority is based upon order of creation:

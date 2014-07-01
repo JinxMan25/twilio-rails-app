@@ -9,4 +9,6 @@ class UsersController < ApplicationController
       render text: "WE'll send you text man"
     else
       render :new
+    end
+  end
 end

@@ -1,5 +1,8 @@
 Twilio::Application.routes.draw do
   resources :users
+  resource :verifications
+  root :to => "users#new"
+
 
 
   get "send_text/send_text_message"
